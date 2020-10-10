@@ -3723,7 +3723,9 @@
 
 		#header > .logo {
 			display: inline-block;
-			height: inherit;
+			width:100px;
+			height: 100px;
+			float: left;
 			left: 1.25em;
 			line-height: inherit;
 			margin: 0;
@@ -3827,6 +3829,7 @@
 			overflow: hidden;
 			position: absolute;
 			top: 1.5em;
+			height: 150px;
 		}
 
 			#header.alt h1 {
