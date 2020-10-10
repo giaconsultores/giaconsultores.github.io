@@ -3819,19 +3819,6 @@
 			animation: reveal-header 0.5s ease;
 		}
 
-		#header.alt {
-			-moz-animation: none;
-			-webkit-animation: none;
-			-ms-animation: none;
-			animation: none;
-			background-color: transparent;
-			box-shadow: none;
-			overflow: hidden;
-			position: absolute;
-			top: 1.5em;
-			height: 150px;
-		}
-
 			#header.alt h1 {
 				left: 2.5em;
 			}
@@ -4177,7 +4164,7 @@
 				text-transform: uppercase;
 				font-size: 1rem;
 				font-weight: 300;
-				margin: 0;
+				margin: 1em;
 				padding-bottom: 1.75rem;
 				letter-spacing: .25rem;
 			}
@@ -4312,4 +4299,12 @@
 				padding: 3rem 0 1rem 0 ;
 			}
 
+		}
+		.contacto {
+			background: #800707;
+			padding: 13px 100px;
+			border-radius: 15px;
+			margin-top: 1rem;
+			font-weight: 800;
+			text-transform: uppercase;
 		}
