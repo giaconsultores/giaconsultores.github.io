@@ -8,6 +8,17 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+:root {
+    --oscuro:#212529;
+    --otro: #707070;
+	--success: #086e20;
+	--danger:#b60e0e;
+    --white: #ffffff;
+    --light: #F8F9FA;
+    --info: #17a2b8;
+    
+  }
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1637,7 +1648,7 @@
 		font-family: "Poppins", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 2.65;
 	}
 
 	a {
@@ -3725,34 +3736,33 @@
 		z-index: 10001;
 	}
 
-		#header .logo {
-			display: inline-block;
-			width:80px;
-			height: 80px;
-			float: left;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-		}
+	#header .logo {
+		display: inline-block;
+		width:80px;
+		height: 80px;
+		left: 1.25em;
+		line-height: inherit;
+		margin: 1em 0em;
+		padding: 0;
+		position: absolute;
+		top: 0;
+	}
 
-			#header > .logo a {
-				font-size: 1.25em;
-				color: #FFF;
-				text-decoration: none;
-			}
+	#header > .logo a {
+		font-size: 1.25em;
+		color: #FFF;
+		text-decoration: none;
+	}
 
-				#header > .logo a:hover {
-					color: rgba(255, 255, 255, 0.65);
-				}
+	#header > .logo a:hover {
+		color: rgba(255, 255, 255, 0.65);
+	}
 
-			#header > .logo span {
-				font-weight: 400;
-				font-size: .8em;
-				color: rgba(255, 255, 255, 0.65);
-			}
+	#header > .logo span {
+		font-weight: 400;
+		font-size: .8em;
+		color: rgba(255, 255, 255, 0.65);
+	}
 
 		#header > a {
 			-moz-transition: color 0.2s ease-in-out;
@@ -3805,15 +3815,18 @@
 					padding: 0 0.5em;
 				}
 
-					#header > a + a[href="#menu"]:last-child {
-						padding-left: 1em;
-						margin-left: 0.25em;
-					}
+				#header > a + a[href="#menu"]:last-child {
+					padding-left: 1em;
+					margin-left: 0.25em;
+				}
 
-					#header > a:last-child {
-						padding-right: 1em;
-					}
+				#header > a:last-child {
+					padding-right: 1em;
+				}
 
+				#header .logo {
+					width:50px;
+					height:50px;
 			}
 
 		#header.reveal {
@@ -4241,6 +4254,16 @@
 
 		@media screen and (max-width: 736px) {
 
+			.banner > article p {
+				color: #fff;
+				text-transform: uppercase;
+				font-size: 1rem;
+				font-weight: 600;
+				margin: 5em 1em 10em 1em;
+				padding-bottom: 1.15rem;
+				letter-spacing: 0.25rem;
+			}
+
 			.banner > article .inner {
 				width: 90%;
 			}
@@ -4276,7 +4299,7 @@
 /* Footer */
 
 	#footer {
-		padding: 1rem 0 1rem 0 ;
+		padding: 2rem 0 2rem 0 ;
 		background: #000;
 		text-align: center;
 	}
@@ -4300,7 +4323,7 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3rem 0 1rem 0 ;
+				padding: 7rem 0 1rem 0 ;
 			}
 
 		}
