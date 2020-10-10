@@ -4304,8 +4304,17 @@
 			}
 
 		}
-		.contacto {
+		.contacto a {
 			background: #f90606;
+			padding: 13px 100px;
+			border-radius: 15px;
+			margin-top: 1rem;
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+
+		.contacto a:hover {
+			background: #611010;
 			padding: 13px 100px;
 			border-radius: 15px;
 			margin-top: 1rem;
